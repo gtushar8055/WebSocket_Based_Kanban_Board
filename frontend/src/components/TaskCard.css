@@ -1,0 +1,121 @@
+.task-card {
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+  cursor: grab;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  border-color: rgba(102, 126, 234, 0.2);
+}
+
+.task-card.dragging {
+  opacity: 0.6;
+  cursor: grabbing;
+  transform: rotate(3deg);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.task-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 8px;
+}
+
+.category-badge {
+  padding: 5px 12px;
+  background: linear-gradient(135deg, #e8f4f8 0%, #d4e9f7 100%);
+  border-radius: 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.priority-badge {
+  padding: 5px 11px;
+  border-radius: 14px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  flex-shrink: 0;
+}
+
+.task-title {
+  font-size: 1.08rem;
+  margin: 12px 0;
+  color: #2c3e50;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.task-description {
+  color: #5a6c7d;
+  font-size: 0.9rem;
+  margin: 12px 0;
+  line-height: 1.6;
+}
+
+.task-attachments {
+  margin: 12px 0;
+  padding: 9px 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  color: #495057;
+  border: 1px solid #e9ecef;
+}
+
+.task-card-footer {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #ecf0f1;
+}
+
+.edit-btn,
+.delete-btn {
+  flex: 1;
+  padding: 9px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.edit-btn {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white;
+}
+
+.edit-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+}
+
+.delete-btn {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+}
+
+.delete-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(231, 76, 60, 0.3);
+}
+
+.edit-btn:active,
+.delete-btn:active {
+  transform: translateY(0);
+}
