@@ -293,13 +293,13 @@ npm run test:e2e       # Run Playwright tests
 
 ## 📊 Technical Architecture
 
-| Component                     | Coverage  | Implementation                                             |
-| ----------------------------- | --------- | ---------------------------------------------------------- |
-| **WebSocket Implementation**  | Core      | ✅ Socket.IO with 6 events, real-time sync, error handling |
-| **React Component Structure** | Frontend  | ✅ Modular components, proper separation, reusable design  |
-| **Testing**                   | Quality   | ✅ 55+ tests (Unit + Integration + E2E)      |
-| **Code Quality**              | Overall   | ✅ Clean code, minimal comments, best practices            |
-| **UI & UX**                   | Design    | ✅ Modern design, responsive, intuitive interface          |
+| Component                     | Coverage | Implementation                                             |
+| ----------------------------- | -------- | ---------------------------------------------------------- |
+| **WebSocket Implementation**  | Core     | ✅ Socket.IO with 6 events, real-time sync, error handling |
+| **React Component Structure** | Frontend | ✅ Modular components, proper separation, reusable design  |
+| **Testing**                   | Quality  | ✅ 55+ tests (Unit + Integration + E2E)                    |
+| **Code Quality**              | Overall  | ✅ Clean code, minimal comments, best practices            |
+| **UI & UX**                   | Design   | ✅ Modern design, responsive, intuitive interface          |
 
 ---
 
@@ -349,4 +349,4 @@ For any issues or questions:
 
 ---
 
-**Built with ❤️ using modern web technologies**
+**Built with ❤️ By Tushar Gupta using modern web technologies**
